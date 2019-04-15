@@ -29,4 +29,6 @@ int main() {
   printf("Please enter second integer:");
   scanf("%d", &b);
   printf("The greatest common divisor of %d and %d is %d.", a, b, euclid(a, b));
+  
+  return 0;
 }
