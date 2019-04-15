@@ -53,4 +53,6 @@ int main() {
 
   printf("The greatest common divisor of %d and %d is %d.\n", a, b, r);
   printf("%d = %d * %d + %d * %d.", r, x[0], a, y[0], b);
+  
+  return 0;
 }
