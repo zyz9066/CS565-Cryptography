@@ -1,2 +1,2 @@
 # CS565-Cryptography
-a few algorithms for number theory
+a few algorithms of number theory
