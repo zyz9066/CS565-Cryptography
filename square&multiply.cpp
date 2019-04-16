@@ -35,17 +35,17 @@ int main() {
 
 	long x, c, n; //input
 
-  // reading
-  printf("Please enter the plaintext: ");
-  scanf("%ld", &x);
-  printf("Please enter the exponent: ");
-  scanf("%ld", &c);
-  printf("Please enter the modular: ");
-  scanf("%ld", &n);
+	// reading
+	printf("Please enter the plaintext: ");
+	scanf("%ld", &x);
+	printf("Please enter the exponent: ");
+	scanf("%ld", &c);
+	printf("Please enter the modular: ");
+	scanf("%ld", &n);
 
 	long y = sma(x, c, n); //Square-and-Multiply modular Exponentation
 
-  // output
+  	// output
 	printf("The ciphertext is %ld.\n", y);	
 
 	return 0;
