@@ -1,13 +1,13 @@
 #include <cstdio>
 #include <cstdlib>
 
-int euclid(int a, int b) {
-  int r;
+long euclid(long a, long b) {
+  long r;
   a = abs(a);
   b = abs(b);
 
   if (a < b) {
-    int temp = a;
+    long temp = a;
     a = b;
     b = temp;
   }
@@ -23,12 +23,12 @@ int euclid(int a, int b) {
 }
 
 int main() {
-  int a, b;
+  long a, b;
   printf("Please enter first integer:");
-  scanf("%d", &a);
+  scanf("%ld", &a);
   printf("Please enter second integer:");
-  scanf("%d", &b);
-  printf("The greatest common divisor of %d and %d is %d.", a, b, euclid(a, b));
+  scanf("%ld", &b);
+  printf("The greatest common divisor of %ld and %ld is %ld.", a, b, euclid(a, b));
   
   return 0;
 }
