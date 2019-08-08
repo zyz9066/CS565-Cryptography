@@ -5,3 +5,4 @@ a few algorithms of number theory
 * Extended Euclidean Algorithm: take two integers *a* and *b* as input and compute integers *r*, *s* and *t* such that *r*=gcd(*a*,*b*) and *sa*+*tb*=r
 * Square and Multiply Algorithm: compute modular exponentiations for large number in RSA cryptosystem
 * Solovay-Strassen Algorithm: evaluate Jacobi symbol without factoring *n*
+* Chinese Remainder Theorem: solve simultaneous congruence
