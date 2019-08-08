@@ -1,8 +1,8 @@
 #include <cstdio>
 #include <cstdlib>
 
-long xeuclid(long a, long b, long x[], long y[]) {
-  long q, r, xx, yy, sign;
+long long xeuclid(long long a, long long b, long long x[], long long y[]) {
+  long long q, r, xx, yy, sign;
 
   // Initializes the coefficients
 
@@ -37,22 +37,22 @@ long xeuclid(long a, long b, long x[], long y[]) {
 }
 
 int main() {
-  long a, b, x[100], y[100];
+  long long a, b, x[100], y[100];
   printf("Please enter first integer:");
-  scanf("%ld", &a);
+  scanf("%lld", &a);
   printf("Please enter second integer:");
-  scanf("%ld", &b);
+  scanf("%lld", &b);
 
   if (a < b) {
-    long temp = a;
+    long long temp = a;
     a = b;
     b = temp;
   }
 
-  long r = xeuclid(a, b, x, y);
+  long long r = xeuclid(a, b, x, y);
 
-  printf("The greatest common divisor of %ld and %ld is %ld.\n", a, b, r);
-  printf("%ld = %ld * %ld + %ld * %ld.", r, x[0], a, y[0], b);
+  printf("The greatest common divisor of %lld and %lld is %lld.\n", a, b, r);
+  printf("%lld = %lld * %lld + %lld * %lld.", r, x[0], a, y[0], b);
   
   return 0;
 }
