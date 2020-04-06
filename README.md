@@ -6,3 +6,4 @@ A few algorithms of number theory
 * **Square and Multiply Algorithm**: compute modular exponentiations for large number in RSA cryptosystem
 * **Solovay-Strassen Algorithm**: evaluate Jacobi symbol without factoring ***n***
 * **Chinese Remainder Theorem**: solve simultaneous congruence ***x*=*a<sub>1</sub>* mod *m<sub>1</sub>*, *x*=*a<sub>2</sub>* mod *m<sub>2</sub>*, ..., *x*=*a<sub>n</sub>* mod *m<sub>n</sub>***
+* **Fast Exponentiation**: exponentiation performed over a modulus
