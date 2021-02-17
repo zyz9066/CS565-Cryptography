@@ -1,4 +1,4 @@
-# CS565-Cryptography
+# Cryptography
 A few algorithms of number theory
 
 * **Euclidean Algorithm**: compute the greatest common divisor of two positive integers ***a*** and ***b***
